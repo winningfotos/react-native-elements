@@ -8,7 +8,7 @@ import {
   ActivityIndicator,
   Text as NativeText,
 } from 'react-native';
-import Icon from 'react-native-vector-icons/FontAwesome';
+import Icon from 'react-native-vector-icons/WFIcons';
 import Text from '../text/Text';
 import fonts from '../config/fonts';
 import ViewPropTypes from '../config/ViewPropTypes';

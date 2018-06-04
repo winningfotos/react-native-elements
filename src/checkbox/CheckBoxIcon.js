@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import FAIcon from 'react-native-vector-icons/FontAwesome';
+import WFIcons from 'react-native-vector-icons/WFIcons';
 
 import getIconType from '../helpers/getIconType';
 
@@ -23,7 +23,7 @@ const CheckBoxIcon = ({
     return uncheckedIcon;
   }
 
-  const VectorIcon = iconType ? getIconType(iconType) : FAIcon;
+  const VectorIcon = iconType ? getIconType(iconType) : WFIcons;
 
   return (
     <VectorIcon
