@@ -64,6 +64,9 @@
     "react-test-renderer": "16.2.0",
     "webpack": "^2.2.1"
   },
+  "peerDependencies": {
+    "react-native-vector-icons": "winningfotos/react-native-vector-icons#87198ac"
+  },
   "jest": {
     "preset": "react-native",
     "coverageDirectory": "./coverage/",
