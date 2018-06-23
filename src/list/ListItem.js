@@ -162,8 +162,7 @@ const ListItem = props => {
 
 const Chevron = ({ color }) => (
   <Icon
-    type={Platform.OS === 'ios' ? 'ionicon' : 'material'}
-    name={Platform.OS === 'ios' ? 'ios-arrow-forward' : 'keyboard-arrow-right'}
+    name={'arrow-right'}
     size={16}
     color={color}
   />
