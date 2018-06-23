@@ -163,13 +163,13 @@ const ListItem = props => {
 const Chevron = ({ color }) => (
   <Icon
     name={'arrow-right'}
-    size={16}
+    size={30}
     color={color}
   />
 );
 
 const Checkmark = ({ color }) => (
-  <Icon type="material" name="check" size={20} color={color} />
+  <Icon name="check" size={30} color={color} />
 );
 
 const styles = StyleSheet.create({
