@@ -162,15 +162,14 @@ const ListItem = props => {
 
 const Chevron = ({ color }) => (
   <Icon
-    type={Platform.OS === 'ios' ? 'ionicon' : 'material'}
-    name={Platform.OS === 'ios' ? 'ios-arrow-forward' : 'keyboard-arrow-right'}
-    size={16}
+    name={'arrow-right'}
+    size={30}
     color={color}
   />
 );
 
 const Checkmark = ({ color }) => (
-  <Icon type="material" name="check" size={20} color={color} />
+  <Icon name="check" size={30} color={color} />
 );
 
 const styles = StyleSheet.create({
