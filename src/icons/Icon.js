@@ -32,7 +32,7 @@ const Icon = props => {
     <View style={containerStyle && containerStyle}>
       <Component
         {...attributes}
-        underlayColor={reverse ? color : underlayColor || color}
+        underlayColor={reverse ? color : underlayColor || 'transparent'}
         style={[
           (reverse || raised) && styles.button,
           (reverse || raised) && {
