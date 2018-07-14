@@ -76,7 +76,7 @@ Icon.propTypes = {
 };
 
 Icon.defaultProps = {
-  underlayColor: 'white',
+  underlayColor: 'transparent',
   reverse: false,
   raised: false,
   size: 24,
