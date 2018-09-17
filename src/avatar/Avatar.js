@@ -130,7 +130,7 @@ const Avatar = props => {
 
   const styles = StyleSheet.create({
     container: {
-      backgroundColor: 'transparent',
+      backgroundColor: '#aaa',
       width: width,
       height: height,
     },
