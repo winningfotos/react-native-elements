@@ -1,13 +1,13 @@
 import PropTypes from 'prop-types';
 import React, { Component } from 'react';
-import { View, StyleSheet, Animated, Easing, PanResponder } from 'react-native';
+import { View,Text, StyleSheet, Animated, Easing, PanResponder } from 'react-native';
 import ViewPropTypes from '../config/ViewPropTypes';
 
 // import shallowCompare from 'react-addons-shallow-compare';
 // import styleEqual from 'style-equal'
 
 const TRACK_SIZE = 4;
-const THUMB_SIZE = 20;
+const THUMB_SIZE = 25;
 
 var DEFAULT_ANIMATION_CONFIGS = {
   spring: {
@@ -421,7 +421,9 @@ export default class Slider extends Component {
               ...valueVisibleStyle,
             },
           ]}
-        />
+        >
+        <Text style={{color: '#fff'}}>{this.getCurrentValue()}</Text>
+        </Animated.View>
         <View
           style={[styles.touchArea, touchOverflowStyle]}
           {...this.panResponder.panHandlers}
@@ -579,6 +581,8 @@ const styles = StyleSheet.create({
   },
   thumb: {
     position: 'absolute',
+    justifyContent: 'center',
+    alignItems: 'center',
     width: THUMB_SIZE,
     height: THUMB_SIZE,
     borderRadius: THUMB_SIZE / 2,
