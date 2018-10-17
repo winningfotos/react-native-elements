@@ -129,7 +129,7 @@ const Avatar = ({
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: 'transparent',
+    backgroundColor: '#aaa',
   },
   avatar: {
     flex: 1,
