@@ -11,7 +11,7 @@ export default type => {
     case 'wficon':
       return WFIcons;
     default:
-      if (customIcons.hasOwnProperty(type)) {
+      if (Object.prototype.hasOwnProperty.call(customIcons, type)) {
         return customIcons[type];
       }
       return WFIcons;
