@@ -13,6 +13,7 @@ import Icon from './icons/Icon';
 import ListItem from './list/ListItem';
 import SocialIcon from './social/SocialIcon';
 import Overlay from './overlay/Overlay';
+import OverlayModal from './overlay/OverlayModal';
 
 // Utilities
 import SearchBar from './searchbar/SearchBar';
@@ -71,6 +72,7 @@ export {
   AirbnbRating,
   Header,
   Overlay,
+  OverlayModal,
   ThemeProvider,
   ThemeConsumer,
   withBadge,
