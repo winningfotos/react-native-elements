@@ -69,7 +69,7 @@ const OverlayModal = props => {
   );
 };
 
-Overlay.propTypes = {
+OverlayModal.propTypes = {
   children: PropTypes.element.isRequired,
   isVisible: PropTypes.bool.isRequired,
   containerStyle: ViewPropTypes.style,
@@ -83,7 +83,7 @@ Overlay.propTypes = {
   fullScreen: PropTypes.bool,
 };
 
-Overlay.defaultProps = {
+OverlayModal.defaultProps = {
   borderRadius: 3,
   fullScreen: false,
   windowBackgroundColor: 'rgba(0, 0, 0, .4)',
