@@ -6,6 +6,7 @@ import {
   Platform,
   TouchableWithoutFeedback,
   Modal,
+  StatusBar
 } from 'react-native';
 
 import { ViewPropTypes, withTheme } from '../config';
@@ -34,6 +35,7 @@ const OverlayModal = props => {
       transparent
       {...rest}
     >
+      <StatusBar backgroundColor="rgba(0,0,0,0.7)"  barStyle="light-content"/>
       <TouchableWithoutFeedback
         onPress={onBackdropPress}
         testID="RNE__Overlay__backdrop"
